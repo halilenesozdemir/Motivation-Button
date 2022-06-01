@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* width: 100%; */
+    margin: 0;
+    background-image: url("https://im4.ezgif.com/tmp/ezgif-4-b756abbfb4.webp");
+    /* background-blend-mode: screen; --> important feature and new <-- */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+label {
+    color: white;
+    font-size: 14px;
+}
+
+.login {
+    margin-bottom: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .equality {
+    color: #588beb;
+    background-color: rgb(251, 238, 238);
+    border: 3px black;
+    border-radius: 3px;
+}
+
+.form-control:focus {
+    border-color: black;
+    box-shadow: 0 0 6px 6px rgb(254 250 250 / 79%);
+}
+
+.container img {
+    object-fit: cover;
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+    max-width: 100%;
+}
+
+.animated_rainbow_1 {
+    letter-spacing: 3px;
+    font-size: 28px;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    font-family: Arial Black, Gadget, sans-serif;
+    background-image: -webkit-linear-gradient(left, #f00, #ff2b00, #f50, #ff8000, #fa0, #ffd500, #ff0, #d4ff00, #af0, #80ff00, #5f0, #2bff00, #0f0, #00ff2a, #0f5, #00ff80, #0fa, #00ffd5, #0ff, #50f, #8000ff, #a0f, #d400ff, #f0f, #ff00d4, #f0a, #ff0080, #f05, #ff002b, #f00);
+    -webkit-animation: animatedBackground_a 10s linear infinite alternate;
+    animation: animatedBackground_a 10s linear infinite alternate;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: #0000;
+    background-clip: text;
+}
+
+/* #00d5ff,
+#0af,
+#0080ff,
+#05f,
+#002aff,
+#00f,
+#2b00ff, */
+
+@keyframes animatedBackground_a {
+    0% {
+        background-position: 0 0
+    }
+
+    100% {
+        background-position: 400px 0
+    }
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    padding: 4px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(255 255 255);
+}
