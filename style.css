@@ -12,10 +12,8 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    /* width: 100%; */
     margin: 0;
-    background-image: url("https://im4.ezgif.com/tmp/ezgif-4-b756abbfb4.webp");
-    /* background-blend-mode: screen; --> important feature and new <-- */
+    background-image: url("ai-gif.gif");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -70,13 +68,7 @@ label {
     background-clip: text;
 }
 
-/* #00d5ff,
-#0af,
-#0080ff,
-#05f,
-#002aff,
-#00f,
-#2b00ff, */
+
 
 @keyframes animatedBackground_a {
     0% {
